@@ -16,14 +16,14 @@
 ## วิธีติดตั้งสำหรับนักพัฒนา
 
 - `git clone https://github.com/sungsit/farmsook.git`
-- เปิดหน้า extensions หรือ พิมพ `chrome://extensions/` ์ใน address bar 
+- เปิดหน้า extensions หรือ พิมพ์ `chrome://extensions/` ใน address bar
 - เช็ค **Developer mode**
 - คลิก **Load unpacked extension...**
 - แล้วเลือก directory `farmsook`
 
 ## วิธีถอนถอด
 
-- เปิดหน้า extensions หรือ พิมพ `chrome://extensions/` ์ใน address bar แล้วโยน **ฟาร์มสุข** ลงถังขยะ!
+- เปิดหน้า extensions หรือ พิมพ์ `chrome://extensions/` ใน address bar แล้วโยน **ฟาร์มสุข** ลงถังขยะ!
 
 ## อยากร่วมคืนความสุข?
 
