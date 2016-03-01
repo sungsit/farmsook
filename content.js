@@ -16,6 +16,7 @@ var mapObj = {
   ไทย: "จักรวาล",
   คนไทย: "คนเช่าฟาร์ม",
   ประชาชน: "คนเช่าฟาร์ม",
+  พลเมือง: "คนเช่าฟาร์ม",
   เอกชน: "คนเช่าฟาร์ม",
   ประเทศ: "ฟาร์ม",
   ชาติ: "จักรวาล",
@@ -28,7 +29,9 @@ var mapObj = {
   ทักษิณ: "คนเลว",
   เสื้อแดง: "ล้มเจ้า",
   เสื้อเหลือง: "รักเจ้า",
-  ประชาธิปัตย์: "แมลงสาบ"
+  ประชาธิปัตย์: "แมลงสาบ",
+  เผด็จการ: "ผู้มีบุญคุณ",
+  ทรราช: "เทวดา"
 };
 
 var re = new RegExp(Object.keys(mapObj).join("|"),"gi");
@@ -42,8 +45,6 @@ for (var i = 0; i < elements.length; i++) {
     var node = element.childNodes[j];
     if (node.nodeType === 3) {
       var text = node.nodeValue;
-
-      //var replacedText = text.replace(/ประยุทธ์/gi, 'คนดี');
 
       var replacedText = text.replace(re, function(matched){
         return mapObj[matched];
